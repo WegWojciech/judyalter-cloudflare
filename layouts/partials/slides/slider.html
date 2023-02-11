@@ -1,0 +1,45 @@
+{{ with .ctx.Content }}
+<div class="center">
+    <div class="slide-info">
+        <div class="content">
+            {{ . }}
+        </div>
+    </div>
+</div>
+{{ end }}
+
+<div class="columns work-width {{ if eq .type "mobile" }} is-mobile is-multiline {{ end }}">
+    {{ if eq (len ($.scratch.Get "posts")) 0 }}
+    {{ else }}
+    {{ range $index, $num := (seq ($.scratch.Get "columnsCount")) }}
+        <div class="column">
+            {{ $column := ($.scratch.Get (printf "%d" $index)) }}
+            {{ range $row := $column }}
+                {{ if (index $row "post").Params.images }}
+                    {{ $scratch := newScratch }}
+                    {{ partial "helpers/get" (dict "scratch" $scratch "row" (index $row "post").Params) }}
+                    {{ $img := $scratch.Get "img" }}
+                    {{ $resizer := "500x r0" }}
+                    {{ with $img.Exif }}
+                        {{ if eq .Tags.Orientation 6 }}
+                            {{ $resizer = "500x r270" }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $img = $img.Resize $resizer }}
+                    <div class="center">
+                        <div class="image-box {{ if eq ($.scratch.Get "columnsCount") 1 }} alittle {{ end }}">
+                            <img
+                            src="{{ $img.RelPermalink }}"
+                            loading="lazy"
+                            width="{{ $img.Width }}"
+                            height="{{ $img.Height }}"
+                            onclick="openSlider();currentSlide({{ (index $row "loopCount") }})"
+                            />
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    {{ end }}
+{{ end }}
+</div>

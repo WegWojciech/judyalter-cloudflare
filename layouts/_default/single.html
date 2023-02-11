@@ -1,0 +1,14 @@
+<div class="background_home">
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section class="section">
+	{{ partial "slides/slide.html" (dict "disableFullheight" true "ctx" .) }}
+</section>
+
+</div>
+
+<div class="background_footer">
+	{{ partial "footer" . }}
+</div>

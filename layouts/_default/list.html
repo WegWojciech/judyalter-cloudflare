@@ -1,0 +1,44 @@
+{{ $class := newScratch }}
+
+{{ if eq .Title "gallery"}}
+	{{ $class.Set "background" "background_gallery"}}
+{{ else if eq .Title "commissions"}}
+	{{ $class.Set "background" "background_commissions"}}
+{{ else }}
+	{{ $class.Set "background" "background_home"}}
+{{ end }}
+
+<div class="{{ $class.Get "background" }}">
+{{ $portfolioScratch := newScratch }}
+{{ $portfolioMobileScratch := newScratch }}
+{{ partial "slides/columns" (dict  "portfolioScratch" $portfolioScratch "portfolioMobileScratch" $portfolioMobileScratch "ctx" .) }}
+
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<section id="desktop" class="section work">
+	{{ partial "helpers/hidden-menu.html" . }}
+	{{ partial "slides/slider" (dict "scratch" $portfolioScratch "type" "desktop" "ctx" .) }}
+</section>
+
+<section id="mobile" class="section work">
+	{{ partial "helpers/hidden-menu.html" . }}
+	{{ partial "slides/slider" (dict "scratch" $portfolioMobileScratch "type" "mobile" "ctx" .) }}
+</section>
+
+{{ partial "slides/slides" $portfolioScratch }}
+
+</div>
+
+<div class="background_footer">
+	{{ partial "footer" . }}
+</div>
+
+
+
+
+
+
+
+
+

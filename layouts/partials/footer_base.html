@@ -1,0 +1,19 @@
+<div class="content has-text-centered">
+    <p>
+        {{ with .Site.Params.Copyright }}
+            {{ . }} <br>
+        {{ end }}
+        {{ with .Site.Params.Author }}
+            © {{ dateFormat "2006" now }}, {{ . }}.
+        {{ end }}
+    </p>
+    <p>
+        Website was created by Vinnie "The Fox" Cannoli
+    </p>
+    {{ if not .Site.Params.DontShowSource}}
+        <p>
+            Theme made by 
+            <a target="_blank" style="color: var(--main)" href="https://github.com/boratanrikulu/eternity">Bora Tanrıkulu </a> 
+        </p>
+    {{ end }}
+</div>

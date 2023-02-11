@@ -1,0 +1,72 @@
+baseURL: https://judyalter.netlify.app # todo: change site url.
+canonical: https://judyalter.netlify.app
+title: Judy Alter # todo: change site name.
+defaultContentLanguage: 'en'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+enableRobotsTXT: true
+
+params:
+  image: /images/logo.png
+  subtitle: Hey there! Name's Judy Alter! I love drawing and especially digital art! I draw fanart for Honkai Impact 3rd and Genshin Impact!
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: Judy Alter
+  description: Hey there! Name's Judy_Alter! I love drawing and especially digital art! I draw fanart for Honkai Impact 3rd and Genshin Impact!
+  dontShowSource: false # please, do not do this :)
+  socials:
+    # todo: change these links.
+    - icon: 'icon-twitter'
+      url: 'https://twitter.com/judy__alter'
+    - icon: 'icon-hoyolab'
+      url: 'https://www.hoyolab.com/accountCenter/postList?id=149553626'
+    - icon: 'icon-instagram'
+      url: 'https://www.instagram.com/judy.alter/'
+    - icon: 'icon-pixiv'
+      url:  'https://www.pixiv.net/en/users/55252983'  
+    - icon: 'icon-kofi'
+      url: 'https://ko-fi.com/judy_alter'
+
+
+
+  homepage: "/home" # homepage link, mostly same with menu.main[0]
+  specialPages:
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  disableRadius: false
+  moveIt: true  # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: "HOME"
+      url: /home/
+      weight: 1
+    - name: "COMMISSIONS"
+      url: /commissions/
+      weight: 2
+    - identifier: "gallery"
+      name: "GALLERY"
+      url: /gallery/
+      weight: 3
+    - name: "SHOP"
+      url: https://www.redbubble.com/people/JudyAlter/shop?asc=u
+      weight: 4
+    - name: "MY WORKS"
+      url: /works/
+      weight: 1
+      parent: "gallery"
+    - name: "PREVIOUS COMMISSIONS"
+      url: /previous/
+      weight: 2
+      parent: "gallery"
