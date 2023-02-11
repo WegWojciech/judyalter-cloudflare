@@ -1,5 +1,5 @@
-baseURL: https://judyalter.netlify.app # todo: change site url.
-canonical: https://judyalter.netlify.app
+baseURL: https://judyalter.pages.dev # todo: change site url.
+canonical: https://judyalter.pages.dev
 title: Judy Alter # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
