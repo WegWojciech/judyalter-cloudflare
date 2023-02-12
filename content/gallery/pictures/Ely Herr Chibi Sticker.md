@@ -1,5 +1,5 @@
 ---
-title: test
+title: Herrscher Elysia chibi sticker
 weight: 1
 hideTitle: true
 images:

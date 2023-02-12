@@ -1,5 +1,5 @@
 ---
-title: test
+title: Dancing Dudu and Rita
 weight: 30
 hideTitle: true
 images:

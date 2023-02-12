@@ -1,5 +1,5 @@
 ---
-title: test
+title: Elysia pillow sticker
 weight: 1
 hideTitle: true
 images:

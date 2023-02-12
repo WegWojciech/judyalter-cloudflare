@@ -1,5 +1,5 @@
 ---
-title: test
+title: Ver Elyden commission with heart with watermark
 weight: 1
 hideTitle: true
 images:

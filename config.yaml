@@ -1,5 +1,5 @@
-baseURL: https://judyalter.pages.dev # todo: change site url.
-canonical: https://judyalter.pages.dev
+baseURL: "/" # todo: change site url.
+
 title: Judy Alter # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity

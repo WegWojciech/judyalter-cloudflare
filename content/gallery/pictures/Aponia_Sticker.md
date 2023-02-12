@@ -1,5 +1,5 @@
 ---
-title: test
+title: Aponia Sticker
 weight: 1
 hideTitle: true
 images:

@@ -1,5 +1,5 @@
 ---
-title: test
+title: Senit Halloween
 weight: 1
 hideTitle: true
 images:

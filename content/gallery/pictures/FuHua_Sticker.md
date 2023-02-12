@@ -1,5 +1,5 @@
 ---
-title: test
+title: Fu Hua sticker
 weight: 1
 hideTitle: true
 images:

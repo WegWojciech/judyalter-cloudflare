@@ -1,5 +1,5 @@
 ---
-title: test
+title: Fox
 weight: 1
 hideTitle: true
 images:

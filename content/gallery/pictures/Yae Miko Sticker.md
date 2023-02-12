@@ -1,5 +1,5 @@
 ---
-title: test
+title: Yae miko sticker-keychain
 weight: 1
 hideTitle: true
 images:

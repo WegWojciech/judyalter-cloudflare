@@ -1,5 +1,5 @@
 ---
-title: test
+title: Elyden spring print
 weight: 30
 hideTitle: true
 images:

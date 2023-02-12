@@ -1,5 +1,5 @@
 ---
-title: test
+title: Yae miko print
 weight: 2
 hideTitle: true
 images:

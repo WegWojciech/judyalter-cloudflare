@@ -1,5 +1,5 @@
 ---
-title: test
+title: Christmas Kitty
 weight: 1
 hideTitle: true
 images:

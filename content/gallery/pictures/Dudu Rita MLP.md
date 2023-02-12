@@ -1,5 +1,5 @@
 ---
-title: test
+title: Dudu Rita Horse
 weight: 1
 hideTitle: true
 images:

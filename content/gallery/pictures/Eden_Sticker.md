@@ -1,5 +1,5 @@
 ---
-title: test
+title: Eden Sticker
 weight: 1
 hideTitle: true
 images:

@@ -1,5 +1,5 @@
 ---
-title: test
+title: Cat in Kimono
 weight: 1
 hideTitle: true
 images:

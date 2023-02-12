@@ -1,5 +1,5 @@
 ---
-title: test
+title: Teriri
 weight: 1
 hideTitle: true
 images:

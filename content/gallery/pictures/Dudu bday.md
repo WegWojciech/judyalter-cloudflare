@@ -1,5 +1,5 @@
 ---
-title: test
+title: Dudu Bday
 weight: 1
 hideTitle: true
 images:
