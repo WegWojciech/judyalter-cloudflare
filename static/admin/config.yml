@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: development
+  base_url: https://development.judyalter.pages.de
+  auth_endpoint: /api/auth
+media_folder: assets/images
+public_folder: /images
+# for local testing
+# npx netlify-cms-proxy-server
+# local_backend: true
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/home/_index.md"
+        label: "Home"
+        name: "home"
+        media_folder: /static/images
+        public_folder: /images
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/commissions/_index.md"
+        label: "Commissions"
+        name: "commissions"
+        media_folder: /static/images
+        public_folder: /images
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "gallery"
+    label: "Gallery Picture"
+    folder: "/content/gallery/pictures"
+    path: "{{slug}}"
+    media_folder: /assets/images
+    public_folder: /images
+
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Weight", name: "weight", widget: "number", default: 1}
+      - { label: "Hide Title", name: "hideTitle", widget: "hidden", default: true}
+      - { label: "Image", name: "images", widget: "list", summary: '{{fields.image}}', field: {label: Image, name: image, widget: image, }}
+      - { label: "Type", name: "tags", widget: "select", options: [{label: "Previous Works", value: "works"}, {label: "Previous Commissions", value: "previous"}], default: "works"}
