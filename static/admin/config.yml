@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: development
   base_url: https://development.judyalter.pages.dev
   auth_endpoint: /api/auth
