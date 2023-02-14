@@ -6,6 +6,11 @@ theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 enableRobotsTXT: true
 
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
 params:
   image: /images/logo.png
   subtitle: Hey there! Name's Judy Alter! I love drawing and especially digital art! I draw fanart for Honkai Impact 3rd and Genshin Impact!
