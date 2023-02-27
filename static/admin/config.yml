@@ -1,7 +1,7 @@
 backend:
   name: github
   repo:  WegWojciech/judyalter-cloudflare
-  branch: development
+  branch: main
   base_url: https://development.judyalter.pages.dev
   auth_endpoint: /api/auth
 media_folder: assets/images
