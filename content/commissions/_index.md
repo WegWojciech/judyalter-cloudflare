@@ -9,18 +9,25 @@ custom_background_enabled: false
 
 ![Fullbody Example](/images/elyswing-optimised.jpg "Chibi - Fullbody")
 
-Price: **25 USD**
+Price: **50 €**
 
-* Extra character +**10 USD** each
+* Extra character +**45 €** each
+* Maximum of two characters per commission
+
+##### Half Body
+
+Price: **35 €**
+
+* Extra character +**30 €** each
 * Maximum of two characters per commission
 
 ##### RKGK
 
 ![RKGK Example](/images/bd-7-optimised-.jpg "Chibi - RKGB")
 
-Price: **15 USD**
+Price: **30 €**
 
-* Extra character +**5 USD** each
+* Extra character +**25 €** each
 * Maximum of two characters per commission
 
 &nbsp;
@@ -29,9 +36,9 @@ Price: **15 USD**
 
 ![Sketch Example](/images/sl-2-optimised-.jpg "Sketch")
 
-Price: **15 USD**
+Price: **35 €**
 
-* Extra Character +**7 USD** each
+* Extra Character + **25 €** each
 * Maximum of two characters per commission
 
 &nbsp;
@@ -42,35 +49,34 @@ Price: **15 USD**
 
 ![Burst Up Example](/images/ayaka-optimised.jpg "Burst Up")
 
-Price: **25 USD**
+Price: **70 €**
 
-* Extra character +**10 USD** each
 * Maximum of two characters per commission
+* Extra Character + **60 €** each
 
 #### Half Body
 
 ![Half Body Example](/images/eden-summer-optimised-.jpg "Half Body")
 
-Price: **45 USD**
+Price: **100 €**
 
-* Extra character + **20 USD** each
 * Maximum of two characters per commission
+* Extra Character +**90 €** each
 
 #### Full Body
 
 ![Full Body Example](/images/rita-dudu-optimised-.jpg "Full Body")
 
-Price: **75 USD**
+Price: **150 €**
 
-* Extra character + **30 USD** each
 * Maximum of two characters per commission
+* Extra Character +**130 €** each
 
 &nbsp;
 
 ## Background
 
 * Default: Solid color with or without splash art - **free**
-* Sky with clouds: **10 USD**
 * Specific Background: Price to be agreed on depending on complexity
 
 &nbsp;
@@ -90,7 +96,6 @@ Price: **75 USD**
 * Furry/Anthro
 
 &nbsp;
-
 
 ## Terms
 
